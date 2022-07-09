@@ -31,14 +31,14 @@ assignment.sumOfNumbers = sumOfNumbers;
  * @param {Array} arrayOfNumbers the array containing even or non-even numbers
  * @returns number the count of even numbers
  */
+let totalEvenNumbers = 0;
 function countEvenNumbers(arrayOfNumbers) {
-    let totalEvenSum = 0;
     for(let i of arrayOfNumbers){
         if((i % 2) == 0){
-            totalEvenSum += i;
+            totalEvenSum += 1;
         }
     }
-    return totalEvenSum;
+    return totalEvenNumbers;
 }
 assignment.countEvenNumbers = countEvenNumbers;
 
