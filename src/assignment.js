@@ -18,9 +18,9 @@ function sumOfNumbers(arrayOfNumbers) {
     for (let i of arrayOfNumbers){
         totalSum += i;
     }
-    console.log(totalSum);
-    return arrayOfNumbers.length;
+    return totalSum;
 }
+assignment.sumOfNumbers = sumOfNumbers;
 
 /**
  * Challenge - 2
@@ -38,8 +38,7 @@ function countEvenNumbers(arrayOfNumbers) {
             totalEvenSum += i;
         }
     }
-    console.log(totalEvenSum)
-    return arrayOfNumbers.length;
+    return totalEvenSum;
 }
 
 /**
